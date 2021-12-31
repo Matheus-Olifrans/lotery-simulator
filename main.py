@@ -6,6 +6,7 @@ class Numeros:
 print('escolha os numeros sem repetir')
 loteria = {int(input(f'digite o {a}° numero: ')) for a in range(1,7)}
 
+
 Matheus = Numeros(loteria)
 Samuel = Numeros(loteria)
 print(f'numeors escolhidos para Matheus são "{Matheus.numbers}"\n')
